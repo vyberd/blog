@@ -5,5 +5,5 @@
 	{{ .Render "authors" }}
 	{{ .Render "date" }}
 	{{ .Summary | truncate 100 }}
-	<span class="decorate-link"><a href="{{ .RelPermalink }}">Olvasd tovább</a></span>
+	<span class="decorate-link"><a href="{{ .RelPermalink }}">{{ T "read_more" }}</a></span>
 </div>
