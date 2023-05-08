@@ -20,24 +20,6 @@
 	margin-right: auto;
 	margin-bottom: 20px;
 }
-.post-tags {
-	font-style: italic;
-	margin-top: 10px;
-	margin-bottom: 0px;
-	padding: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
-	width: fit-content;
-	height: fit-content;
-	font-size: 1rem;
-}
-.post-tags a {
-	font-weight: normal;
-	text-decoration: underline;
-}
-.post-tags a:hover {
-	text-decoration: none;
-}
 
 .post .date {
 	font-size: 1.25rem;

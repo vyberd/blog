@@ -1,4 +1,5 @@
 {{ define "main" }}
+	{{ partial "stylesheet" (dict "name" "css/posts.css") }}
 	<div class="columns is-multiline posts">
 		{{ range .Data.Pages.ByDate.Reverse }}
 			<div class="column is-one-third">

@@ -1,4 +1,5 @@
 {{ $list := .GetTerms "tags" }}
+{{ partial "stylesheet" (dict "name" "css/post-tags.css") }}
 {{ if $list }}
 	<div class="post-tags">
 		{{ range $i, $e := $list }}

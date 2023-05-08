@@ -1,4 +1,5 @@
 {{ define "main" }}
+	{{ partial "stylesheet" (dict "name" "css/single-post.css") }}
 	<div class="container color0 above-single-post">{{ partial "signup" (dict "ctx" . "name" "newsletter") }}</div>
 	<div class="container color0 single-post">
 		<div class="columns is-vcentered color1">
